@@ -110,7 +110,7 @@ app.post('/api/create-payment', async (req, res) => {
           state: 'NA',
           postal_code: 'NA'
         },
-        return_url: process.env.RETURN_URL || 'https://atsscore365.netlify.app/payment-callback'
+        return_url: process.env.RETURN_URL || 'https://yallabanking.github.io/ATS/'
       }
     );
     const paymentToken = paymentResponse.data.token;
