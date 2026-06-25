@@ -69,7 +69,7 @@ git push -u origin main
    - `PAYMOB_API_KEY` = ZXlKaGJHY2lPaUpJVXpVeE1pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SmpiR0Z6Y3lJNklrMWxjbU5vWVc1MElpd2ljSEp2Wm1sc1pWOXdheUk2TWpBNU5UYzNMQ0p1WVcxbElqb2lNVGM0TWpRd05EZzBNaTQ1TnpBM09UWWlmUS4zWHJWR09yRUtPRjF6YWhwM0VXTlhVLVJ1ekVDd2xlaWd6cVFNMWxvMWNKU0RUbTZWQjJRcFpVQVRCVW1oMzdwYnhIX3hnNzM5WjBOZzhvQ0ZZamFWZw==
    - `INTEGRATION_ID` = 2250398
    - `IFRAME_ID` = 642650
-   - `RETURN_URL` = https://yallabanking.github.io/ATS/
+   - `RETURN_URL` = https://yallabanking.github.io/yalla-banking-backend/
 
 6. Click "Create Web Service"
 
