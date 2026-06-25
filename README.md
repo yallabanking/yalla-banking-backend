@@ -23,10 +23,10 @@ npm install
 Edit the `.env` file and add your Paymob credentials:
 
 ```env
-PAYMOB_API_KEY=ZXlKaGJHY2lPaUpJVXpVeE1pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SmpiR0Z6Y3lJNklrMWxjbU5vWVc1MElpd2ljSEp2Wm1sc1pWOXdheUk2TWpBNU5UYzNMQ0p1WVcxbElqb2lNVGM0TWpRd05EZzBNaTQ1TnpBM09UWWlmUS4zWHJWR09yRUtPRjF6YWhwM0VXTlhVLVJ1ekVDd2xlaWd6cVFNMWxvMWNKU0RUbTZWQjJRcFpVQVRCVW1oMzdwYnhIX3hnNzM5WjBOZzhvQ0ZZamFWZw==
+PAYMOB_API_KEY=your_api_key_here
 INTEGRATION_ID=2250398
-IFRAME_ID=642650
-RETURN_URL=https://yallabanking.github.io/ATS/
+IFRAME_ID=your_iframe_id_here
+RETURN_URL=https://atsscore365.netlify.app/payment-callback
 ```
 
 ### 3. Run Locally
@@ -49,7 +49,7 @@ git init
 git add .
 git commit -m "Initial commit"
 git branch -M main
-git remote add origin https://github.com/Yallabanking/yalla-banking-backend.git
+git remote add origin https://github.com/YOUR_USERNAME/yalla-banking-backend.git
 git push -u origin main
 ```
 
@@ -66,10 +66,10 @@ git push -u origin main
    - **Instance Type**: Free
 
 5. Add Environment Variables:
-   - `PAYMOB_API_KEY` = ZXlKaGJHY2lPaUpJVXpVeE1pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SmpiR0Z6Y3lJNklrMWxjbU5vWVc1MElpd2ljSEp2Wm1sc1pWOXdheUk2TWpBNU5UYzNMQ0p1WVcxbElqb2lNVGM0TWpRd05EZzBNaTQ1TnpBM09UWWlmUS4zWHJWR09yRUtPRjF6YWhwM0VXTlhVLVJ1ekVDd2xlaWd6cVFNMWxvMWNKU0RUbTZWQjJRcFpVQVRCVW1oMzdwYnhIX3hnNzM5WjBOZzhvQ0ZZamFWZw==
+   - `PAYMOB_API_KEY` = your_api_key
    - `INTEGRATION_ID` = 2250398
-   - `IFRAME_ID` = 642650
-   - `RETURN_URL` = https://yallabanking.github.io/yalla-banking-backend/
+   - `IFRAME_ID` = your_iframe_id
+   - `RETURN_URL` = https://atsscore365.netlify.app/payment-callback
 
 6. Click "Create Web Service"
 
